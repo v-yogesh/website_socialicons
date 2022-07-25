@@ -1,0 +1,105 @@
+html{
+    font-family: "Open Sans",sans-serif;
+}
+header{
+    background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg");
+    background-position-y:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+}
+body{
+    padding:0px;
+    margin: 0px;
+
+    background-color: rgb(41, 41, 50);
+    color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+   
+
+}
+
+#Titlescreen{
+    margin-top:100px;
+
+}
+
+#navitems{
+    text-align: center;
+    justify-content: center;
+
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+ul>li{
+    padding-left: 5px;
+    
+}
+
+#socialmediaicons{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+#buttonitems>li{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.list-style-type-none{
+    list-style-type: none;
+}
+
+.fa{
+    color: white;
+}
+
+button{
+    display: flex;
+    padding: 0px;
+    
+}
+
+button .fa{
+    color: black;
+}
+
+#contact{
+    display: block;
+}
+
+.flex-column{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
